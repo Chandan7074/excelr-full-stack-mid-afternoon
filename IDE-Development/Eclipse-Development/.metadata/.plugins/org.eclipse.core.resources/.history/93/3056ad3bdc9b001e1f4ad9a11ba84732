@@ -1,0 +1,9 @@
+package app3.rst;
+class M
+{
+	public static void main(String[] args) 
+	{
+		app3.K k1 = new app3.K();
+	//	System.out.println(k1.i);
+	}
+}
