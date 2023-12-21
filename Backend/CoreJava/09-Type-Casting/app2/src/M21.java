@@ -9,26 +9,30 @@ class M21
 
 		}
 
-		else if(obj instanceof A)
+		 if(obj instanceof A)
 		{
 			System.out.println("we can cast to A");
 			A a1 = (A)obj;
-		}
+		
 
-		else if(obj instanceof B)
-		{
-			System.out.println("we can cast to B");
-			B b1 = (B)obj;
-		}
-		else if(obj instanceof C)
-	
-			System.out.println("we can cast to C");
-			C c1 = (C)obj;
-		}
-		else if(obj instanceof D)
-		{
-			System.out.println("we can cast to D");
-			D d1 = (D)obj;
+			if(obj instanceof B)
+			{ 
+				System.out.println("we can cast to B");
+				B b1 = (B)obj;
+		
+				 if(obj instanceof C)
+				{
+			
+					System.out.println("we can cast to C");
+					C c1 = (C)obj;
+			
+					 if(obj instanceof D)
+					{
+						System.out.println("we can cast to D");
+						D d1 = (D)obj;
+					}
+				}
+			}
 		}
 
 }
