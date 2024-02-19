@@ -4,14 +4,14 @@ import java.lang.annotation.Annotation;
 
 
 @Retention(RetentionPolicy.CLASS)
-//@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.RUNTIME)
 @interface O
 {
 	String message();
 }
 
 @Retention(RetentionPolicy.CLASS)
-//@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.RUNTIME)
 @interface P
 {
 	String message();

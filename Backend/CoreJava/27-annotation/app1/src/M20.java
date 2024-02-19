@@ -11,6 +11,7 @@ class M20
 		list.add(900);
 		System.out.println(list);
 		Thread t1 = new Thread();
+		//deprecated in 1.1
 		t1.stop();//deprecated method
 	}
 }
