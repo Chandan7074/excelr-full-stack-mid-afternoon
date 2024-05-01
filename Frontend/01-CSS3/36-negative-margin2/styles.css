@@ -1,0 +1,34 @@
+/* negative margin */
+
+.container2
+{
+  padding: 20px;
+  background: gainsboro;
+  width: 800px;
+  height: 500px;
+}
+.layer{
+  width: 250px;
+  height: 300px;
+  background: rgb(5, 23, 161,0.60);
+}
+
+.layer10
+{
+  margin-left: 550px;
+}
+
+.layer20
+{
+      margin-top: -250px;
+      margin-left: 500px;
+   
+}
+
+.layer30
+{
+   margin-top: -250px;
+   margin-left: 450px;
+  
+}
+

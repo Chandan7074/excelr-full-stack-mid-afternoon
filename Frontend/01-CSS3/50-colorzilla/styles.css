@@ -1,0 +1,28 @@
+/* linear-gradient
+ */
+ * 
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ div
+ {
+     width: 150px;
+     height: 150px;
+     margin: 5px;
+ }
+ 
+ .one
+ {
+    background: linear-gradient(to right,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%);
+
+ }
+ 
+ .two
+ {
+    background: linear-gradient(to right,  #a90329 0%,#8f0222 15%,#6d0019 100%);
+
+ }
+ 

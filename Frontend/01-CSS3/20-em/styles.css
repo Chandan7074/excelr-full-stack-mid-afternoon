@@ -1,0 +1,14 @@
+/* 
+ em - relative, depends on parent
+ 1em- 16px default browsers style
+ 1em = base value(16px) * number(1) = 16 
+ 2em = base value(16px) * number(2) = 32 */
+ div{
+    font-size: 10px;
+ }
+ .absolute{
+    font-size: 32px;
+ }
+ .relative{
+    font-size: 2em;
+ }

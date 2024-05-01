@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>servlets registration form</title>
+	</head>
+	<body>
+		<form action="reg">
+			<img src="th.jpeg" alt="students" width="500" height="500" />
+			<table>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="firstName" /></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="lastName" /></td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td><input type="text" name="age" /></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					
+					<td><textarea><input type="address" cols="15" rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender" value="M" />Male &nbsp;&nbsp;
+						<input type="radio" name="gender" value="F" />Female
+					</td>
+				</tr>
+				<tr>
+					<td>Skills</td>
+					<td>
+						<input type="checkbox" name="skill" value="C" />C &nbsp;&nbsp;
+						<input type="checkbox" name="skill" value="CPP" />C++ &nbsp;&nbsp;
+						<input type="checkbox" name="skill" value="Java" />Java &nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>Education</td>
+					<td>
+						<select name="Education">
+							<option value="BE">BE</option>
+							<option value="MCA">MCA</option>
+							<option value="MBA">MBA</option>
+						</select>
+					</td>
+				</tr>
+				<br>
+				<tr>
+				<td><input type="reset" />clear</td>
+				<td><input type="submit" />submit</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

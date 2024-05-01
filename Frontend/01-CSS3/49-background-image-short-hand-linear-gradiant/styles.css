@@ -1,0 +1,36 @@
+/* linear-gradient
+ */
+ * 
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ div
+ {
+   min-height: 100vh;
+   color: white;
+   border: 2px solid red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   text-transform: uppercase;
+   text-align: center;
+ }
+ 
+ .big-img
+ {
+     background: url("./img/big.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+ .folder-img{
+   background:url(./img/folder-img.jpeg) center/cover fixed no-repeat ;
+ }
+ .small{
+   background: url(./img/small.jpeg) center/cover fixed no-repeat;
+ }

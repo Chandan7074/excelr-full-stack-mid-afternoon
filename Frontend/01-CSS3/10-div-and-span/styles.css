@@ -1,0 +1,36 @@
+/* Div and span  */
+/* Div - used for grouping other elements
+    -div can contain any number of elements inside it
+    - as a code-block of elements
+    - inside the div we can nest any no of elements
+    - used to group multiple elements 
+    - div is a block-level element 
+    - block level elements are always start on new line and takes up the entire
+      width of the screen*/
+
+    /* Span
+     - used to specify  inline content
+     - span is a inline-level element  
+     - inline-level element doesnt */
+
+     .green{
+        color: green;
+        background: yellow;
+     }
+     .red
+     {
+        color: red;
+        background: black;
+     }
+     .uppercase{
+        text-transform: uppercase;
+     }
+     .text{
+        background: white;
+        color: blue;
+     }
+     .white
+     {
+        color: white;
+        background: black;
+     }

@@ -1,0 +1,10 @@
+h1{
+    color: yellow;
+}
+p{
+    color: brown;
+}
+/*  h1 and p are  the names of the elements*/
+/* {declaration block} */
+/* css property name : css property value */
+/* css property should be seperated by a semi colon */

@@ -1,0 +1,12 @@
+/* color properties */
+/*  color background color back */
+#first
+{
+    color: white;
+    background-color: black;
+}
+#second
+{
+    color: red;
+    background: yellow;
+}

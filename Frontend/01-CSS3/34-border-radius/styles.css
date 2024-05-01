@@ -1,0 +1,23 @@
+/* 
+BORDER-RADIUS, NEGATIVE MARGIN  
+*/
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  background: red;
+  padding: 10px;
+  border: 15px solid black;
+  border-radius: 30px;
+}
+p {
+  background: blue;
+  padding: 15px;
+  border: 7px dotted green;
+  border-radius: 70px;
+  /*Negative margins in CSS refers to the usage of negative values as margins. These are used to reduce the spacing between the elements and draw them closer together. Overlapping of HTML elements will occur if the negative margin value exceeds the existing spacing between the elements  */
+  margin-top: -50px;
+}

@@ -1,0 +1,45 @@
+/* linear gradiant
+ */
+ * 
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+ }
+ .one{
+    background: linear-gradient(blue, green, red, yellow);
+ }
+ 
+ .two{
+    background: linear-gradient(to left,blue, green, red, yellow);
+
+ }
+ .three{
+    background: linear-gradient(300deg, green, red);
+    /* background: linear-gradient(to top,blue, green, red, yellow); */
+
+
+ }
+ .four{
+    background: linear-gradient(to top left,red, green);
+
+ }
+ .five{
+    
+    background: linear-gradient(blue 20%, yellow 80%);
+
+ }
+ .six{
+    background: linear-gradient(red,white);
+
+ }
+ .seven{
+    background: linear-gradient(rbgba(0,0,0,0.2), rgba(0,0,0,0.9), rgba(255,255,255));
+
+
+ }

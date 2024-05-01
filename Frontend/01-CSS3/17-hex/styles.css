@@ -1,0 +1,21 @@
+/* HEX Values 
+123456789 A(10) ...F(15) */
+/* #FF0000-RED
+    #00FF00 */
+    #first{
+        color: #ff0000;
+        background: #000;
+    }
+    #second{
+        color: #fff;
+        background: #00ff00;
+    }
+    #three{
+        color: #0000ff;
+        background: #f15025;
+    }
+    #four{
+        color: #f234ad;
+        background: #222;
+
+    }

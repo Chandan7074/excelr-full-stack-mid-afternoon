@@ -1,0 +1,25 @@
+/* 
+text-align, text-indent
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  text-align: right;
+  text-align: left;
+  text-align: center;
+
+.main-heading {
+  font-family: "Trade Winds", cursive;
+  text-align: center;
+}
+.sub-heading {
+    text-align: left;
+    text-indent: 6rem;
+}
+.one {
+}
+.two {
+  text-align: left;
+  text-indent: 6rem;
+}

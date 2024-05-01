@@ -1,0 +1,28 @@
+/* 
+CSS BOX MODEL, PADDING, MARGIN, BORDER
+*/
+
+body
+{
+  background: black;
+}
+
+h1,
+p
+{
+  color: white;
+}
+
+h1
+{
+  background: red;
+  width: 100vh;
+  height: 50vh;
+}
+
+p
+{
+  background: blue; 
+  width: 100vh;
+  height: 50vh;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one
+{
+    margin: 1rem;
+    width: 250px;
+    height: 300px;
+    background: red;
+    border: 2px solid black;
+    position: static;
+    top: 2rem;
+}
+p{
+    margin: 1rem;
+    color: blue;
+}

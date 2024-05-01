@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div h1 {
+        color: blue;
+      }
+      .header > h1 {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>im a child and descendant</h1>
+    </div>
+    <div>
+      <h1>im a child and descendant</h1>
+    </div>
+    <div class="header">
+      <ul>
+        <li>
+          <h1>im a descendant</h1>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

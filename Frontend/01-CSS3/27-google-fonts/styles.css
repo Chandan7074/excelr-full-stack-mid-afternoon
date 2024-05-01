@@ -1,0 +1,15 @@
+p {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+  h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+  }
+  h2{
+    font-family: "Open Sans", sans-serif;
+  }

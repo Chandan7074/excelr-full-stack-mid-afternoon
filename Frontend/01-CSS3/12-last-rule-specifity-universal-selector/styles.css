@@ -1,0 +1,29 @@
+/* Last Rule and Specificity Universal Selector */
+/* class vs elements== class will be the preference */
+/* ID is the first preference 
+   2.class second
+   3.element
+    4.inheritance
+    5.Universal selector its the last opation to specify*/
+.special{
+    color: green;
+} 
+p{
+    color: red;
+}      
+p{
+    /* considering latest so we get blue */
+    color: blue; 
+}
+#heading
+{
+    color: red;
+}
+.heading
+{
+    color: blue;
+}
+*
+{
+    color: brown;
+}

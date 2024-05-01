@@ -1,0 +1,27 @@
+div
+{
+  height: 300px;
+  color: white;
+  border: 2px solid black;
+  margin: 2rem;
+}
+
+.big-img
+{
+  background: url('./img/big.jpeg');
+  
+}
+
+.small-img
+{
+  background: url("./img/small.jpeg");
+  background-repeat: no-repeat;
+/* background-position: 20%; */
+ 
+}
+
+.folder-img
+{
+  background: url("./img/folder-img.jpeg");
+  
+}

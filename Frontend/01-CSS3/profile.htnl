@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using flex</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .flex-container {
+        height: calc(100vh - 50px);
+        width: 100vw;
+        display: flex;
+        background-color: #f4f4f4;
+        /* if we are working with row horizontal is the main axis */
+        /*doesnt take the space from start and end and only gives the space around items*/
+        justify-content: space-between;
+        /* border: 5px solid black; */
+        flex-wrap: wrap;
+      }
+      .item {
+        width: 300px;
+        height: 300px;
+        background: #000000;
+        border: 4px solid black;
+        border-radius: 5%;
+        color: #fff;
+        margin: 10px;
+      }
+      .header {
+        height: 50px;
+        color: black;
+        background-color: bisque;
+        text-align: center;
+        font-size: 1rem;
+        display: block;
+      }
+
+      .item:nth-of-type(1) .image {
+        background: url("./th.jpeg") center / cover no-repeat;
+        width: 100%;
+        height: 60%;
+        background-position: top;
+      }
+      .item:nth-of-type(1) .name {
+        color: black;
+        background-color: whitesmoke;
+        position: relative;
+        top: 0;
+        text-align: center;
+        text-transform: capitalize;
+        height: 2.5rem;
+      }
+      .item:nth-of-type(1) .edu {
+        height: 2.5rem;
+        background-color: tomato;
+        position: relative;
+        top: 0;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      .item:nth-of-type(1) h2 {
+        transform: translateY(0.5rem);
+      }
+      .item:nth-of-type(1) .year {
+        height: 20px;
+        color: white;
+        position: relative;
+        top: 0;
+        text-align: center;
+        text-transform: capitalize;
+        background-color: black;
+        /* border-radius: 15%; */
+        /* display: block; */
+      }
+ </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Past students</h1>
+    </div>
+
+    <div class="flex-container">
+      <div class="item">
+        <div class="image"></div>
+        <div class="name">
+          <h2>Name:Henry</h2>
+        </div>
+        <div class="edu">
+          <h2>BE</h2>
+        </div>
+        <div class="year">
+          <br />
+          <h3>2014</h3>
+        </div>
+      </div>
+      
